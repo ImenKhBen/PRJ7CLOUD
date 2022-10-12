@@ -191,7 +191,7 @@ def main():
 def load_logo():
     # Construction de la sidebar
     # Chargement du logo
-    logo = Image.open("logo.png") 
+    logo = Image.open("logo.PNG") 
     
     return logo
 
