@@ -14,7 +14,7 @@ from sklearn.neighbors import NearestNeighbors
 
 from flask import Flask
 
-URL_API = "http://localhost:5000/"
+URL_API = "https://prj7app.herokuapp.com/"
 
 # import des modèles
 dfPrediction = joblib.load('dfPrediction.joblib')
