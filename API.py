@@ -96,4 +96,4 @@ def load_revenus_population():
     return df_revenus.to_json(orient='values')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0", port=5000)
